@@ -1431,25 +1431,25 @@ Text Label 13350 5750 0    50   ~ 0
 H-SDA
 Text Label 13350 5850 0    50   ~ 0
 H-SCL
-Text Label 11050 3450 0    50   ~ 0
+Text Label 5850 5400 0    50   ~ 0
 PT-MISO
-Text Label 11050 3500 0    50   ~ 0
+Text Label 5850 5500 0    50   ~ 0
 PT-MOSI
-Text Label 11100 3700 0    50   ~ 0
+Text Label 5850 5600 0    50   ~ 0
 PT-SCLK
-Text Label 11100 3850 0    50   ~ 0
+Text Label 5850 5700 0    50   ~ 0
 PT-~CS
-Text Label 11150 4200 0    50   ~ 0
+Text Label 10050 5000 2    50   ~ 0
 GNSS-TXD
-Text Label 11150 4300 0    50   ~ 0
+Text Label 10050 5100 2    50   ~ 0
 GNSS-RXD
-Text Label 11150 4400 0    50   ~ 0
+Text Label 10050 5200 2    50   ~ 0
 GNSS-~RESET
-Text Label 11150 4500 0    50   ~ 0
+Text Label 10050 5300 2    50   ~ 0
 GNSS-1PPS
-Text Label 11150 4600 0    50   ~ 0
+Text Label 5850 5200 0    50   ~ 0
 H-SDA
-Text Label 11150 4700 0    50   ~ 0
+Text Label 5850 5300 0    50   ~ 0
 H-SCL
 $Comp
 L Device:Crystal Y?
@@ -1604,63 +1604,150 @@ Wire Wire Line
 	12000 7750 12000 7700
 Wire Wire Line
 	12500 7750 12500 7700
-Text Label 11100 4950 0    50   ~ 0
+Text Label 5850 7050 0    50   ~ 0
 Flash-MISO
-Text Label 11100 5100 0    50   ~ 0
+Text Label 5850 7150 0    50   ~ 0
 Flash-MOSI
-Text Label 11150 5250 0    50   ~ 0
+Text Label 5850 7250 0    50   ~ 0
 Flash-SCLK
-Text Label 11150 5400 0    50   ~ 0
+Text Label 5850 7350 0    50   ~ 0
 Flash-~CS
-Text Label 4250 6950 2    50   ~ 0
+Text Label 5850 7550 0    50   ~ 0
 CAN-STB
-Text Label 4200 7100 2    50   ~ 0
+Text Label 5850 7650 0    50   ~ 0
 CAN-TXD
-Text Label 4150 7250 2    50   ~ 0
+Text Label 5850 7750 0    50   ~ 0
 CAN-RXD
 $Comp
 L Device:LED D?
 U 1 1 5E0B05FB
-P 10750 5850
-F 0 "D?" H 10743 6066 50  0000 C CNN
-F 1 "LED" H 10743 5975 50  0000 C CNN
-F 2 "" H 10750 5850 50  0001 C CNN
-F 3 "~" H 10750 5850 50  0001 C CNN
-	1    10750 5850
-	1    0    0    -1  
+P 10450 6100
+F 0 "D?" V 10489 5983 50  0000 R CNN
+F 1 "LED" V 10398 5983 50  0000 R CNN
+F 2 "" H 10450 6100 50  0001 C CNN
+F 3 "~" H 10450 6100 50  0001 C CNN
+	1    10450 6100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:LED D?
 U 1 1 5E0B1C85
-P 10750 6200
-F 0 "D?" H 10743 6416 50  0000 C CNN
-F 1 "LED" H 10743 6325 50  0000 C CNN
-F 2 "" H 10750 6200 50  0001 C CNN
-F 3 "~" H 10750 6200 50  0001 C CNN
-	1    10750 6200
-	1    0    0    -1  
+P 10800 6100
+F 0 "D?" V 10839 5983 50  0000 R CNN
+F 1 "LED" V 10748 5983 50  0000 R CNN
+F 2 "" H 10800 6100 50  0001 C CNN
+F 3 "~" H 10800 6100 50  0001 C CNN
+	1    10800 6100
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E0B2032
-P 11150 5850
-F 0 "R?" V 11250 5850 50  0000 C CNN
-F 1 "220Ω" V 11150 5850 50  0000 C CNN
-F 2 "" V 11080 5850 50  0001 C CNN
-F 3 "~" H 11150 5850 50  0001 C CNN
-	1    11150 5850
-	0    1    -1   0   
+P 10800 5750
+F 0 "R?" V 10900 5750 50  0000 C CNN
+F 1 "220Ω" V 10800 5750 50  0000 C CNN
+F 2 "" V 10730 5750 50  0001 C CNN
+F 3 "~" H 10800 5750 50  0001 C CNN
+	1    10800 5750
+	1    0    0    1   
 $EndComp
 $Comp
 L Device:R R?
 U 1 1 5E0B2AB7
-P 11100 6200
-F 0 "R?" V 11200 6200 50  0000 C CNN
-F 1 "220Ω" V 11100 6200 50  0000 C CNN
-F 2 "" V 11030 6200 50  0001 C CNN
-F 3 "~" H 11100 6200 50  0001 C CNN
-	1    11100 6200
-	0    1    -1   0   
+P 10450 5750
+F 0 "R?" V 10550 5750 50  0000 C CNN
+F 1 "220Ω" V 10450 5750 50  0000 C CNN
+F 2 "" V 10380 5750 50  0001 C CNN
+F 3 "~" H 10450 5750 50  0001 C CNN
+	1    10450 5750
+	1    0    0    1   
 $EndComp
 NoConn ~ 9900 7500
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5E0C2C52
+P 10800 5500
+F 0 "#PWR?" H 10800 5350 50  0001 C CNN
+F 1 "+3V3" H 10815 5673 50  0000 C CNN
+F 2 "" H 10800 5500 50  0001 C CNN
+F 3 "" H 10800 5500 50  0001 C CNN
+	1    10800 5500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10800 5500 10800 5550
+Wire Wire Line
+	10800 5550 10450 5550
+Wire Wire Line
+	10450 5550 10450 5600
+Connection ~ 10800 5550
+Wire Wire Line
+	10800 5550 10800 5600
+Wire Wire Line
+	10450 5900 10450 5950
+Wire Wire Line
+	10800 5900 10800 5950
+Wire Wire Line
+	10450 6250 10450 6300
+Wire Wire Line
+	10800 6250 10800 6400
+Wire Wire Line
+	9300 6300 10450 6300
+Wire Wire Line
+	9300 6400 10800 6400
+Wire Wire Line
+	5850 7550 6600 7550
+Wire Wire Line
+	5850 7650 6600 7650
+Wire Wire Line
+	5850 7750 6600 7750
+Wire Wire Line
+	6600 7350 5850 7350
+Wire Wire Line
+	6600 7250 5850 7250
+Wire Wire Line
+	6600 7150 5850 7150
+Wire Wire Line
+	6600 7050 5850 7050
+Wire Wire Line
+	6600 5700 5850 5700
+Wire Wire Line
+	6600 5600 5850 5600
+Wire Wire Line
+	5850 5500 6600 5500
+Wire Wire Line
+	6600 5400 5850 5400
+Wire Wire Line
+	6600 5300 5850 5300
+Wire Wire Line
+	6600 5200 5850 5200
+NoConn ~ 6600 5000
+NoConn ~ 6600 5100
+NoConn ~ 6600 6300
+NoConn ~ 6600 6400
+NoConn ~ 6600 6500
+NoConn ~ 6600 6600
+NoConn ~ 6600 6700
+NoConn ~ 6600 6800
+NoConn ~ 6600 7450
+NoConn ~ 9300 7500
+NoConn ~ 9300 7400
+NoConn ~ 9300 6600
+NoConn ~ 9300 6500
+NoConn ~ 9300 6200
+NoConn ~ 9300 6100
+NoConn ~ 9300 6000
+NoConn ~ 9300 5900
+NoConn ~ 9300 5700
+NoConn ~ 9300 5600
+NoConn ~ 9300 5500
+NoConn ~ 9300 5400
+Wire Wire Line
+	10050 5300 9300 5300
+Wire Wire Line
+	10050 5200 9300 5200
+Wire Wire Line
+	10050 5100 9300 5100
+Wire Wire Line
+	10050 5000 9300 5000
 $EndSCHEMATC
