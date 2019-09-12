@@ -1,6 +1,6 @@
 # RCT-X-Logger
  Logger module for GS-8  
-![circuit](RCT-X-Logger.svg)
+![circuit](svg/RCT-X-Logger.svg)
 
 ![B_Cu](svg/RCT-X-Logger-B_Cu.svg)  
 ![F_Cu](svg/RCT-X-Logger-F_Cu.svg)  
