@@ -1,4 +1,4 @@
-# RCT-X-Logger
+# RCT-Arrows-Logger
  Logger module for GS-8  
 ![circuit](svg/RCT-X-Logger.svg)
 
