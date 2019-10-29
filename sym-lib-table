@@ -1,5 +1,5 @@
 (sym_lib_table
-  (lib (name RCT-X-Logger-cache)(type Legacy)(uri ${KIPRJMOD}/RCT-X-Logger-cache.lib)(options "")(descr ""))
+  (lib (name RCT-Arrows-Logger-cache)(type Legacy)(uri ${KIPRJMOD}/RCT-Arrows-Logger-cache.lib)(options "")(descr ""))
   (lib (name Video)(type Legacy)(uri ${KICAD_SYMBOL}/Video.lib)(options "")(descr ""))
   (lib (name 4xxx)(type Legacy)(uri ${KICAD_SYMBOL}/4xxx.lib)(options "")(descr ""))
   (lib (name 4xxx_IEEE)(type Legacy)(uri ${KICAD_SYMBOL}/4xxx_IEEE.lib)(options "")(descr ""))
